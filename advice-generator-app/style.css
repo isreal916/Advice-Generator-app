@@ -1,0 +1,69 @@
+@font-face {
+    font-family: Manrope;
+    src: url(regular.woff);
+    font-weight: 800;
+}
+@font-face {
+    font-family: manrope;
+    src: url(light.woff2);
+    font-weight: 800;
+}
+body{
+    background-color: hsl(218, 23%, 16%);
+    display:flex;
+    flex-direction: column;
+    height:100vh;
+    align-items: center;
+    font-family: Manrope;
+}
+.container{
+width:500px;
+height:300px;
+background-color:hsl(217, 19%, 24%);
+margin: 190px 0 0 0;border-radius: 12px;
+}
+.advice{
+color:white;
+font-size: 20px;
+justify-self: center;
+text-align: center;
+width:400px;
+height:70px;
+margin: 0 0 0 40px;
+/* border:2px solid black; */
+word-wrap: break-word ;
+
+}
+.advice-id{
+color:hsl(150, 100%, 66%);
+display: flex;
+justify-self: center;
+margin: 0 0 0 190px
+}
+img{
+    width: 320px;
+    float:center;
+    justify-self: center;
+    align-self: center;
+    margin:49px 15px 0 75px;
+
+}
+button{
+   background-color: transparent;
+   width:60px;
+   height:60px;
+   
+   margin: 65px 0 0 230px;
+   border:none;
+   background-image:url(./images/icon-dice.svg) ;
+   background-repeat: no-repeat;
+   border:none;
+   /* position: absolute; */
+   position: sticky;
+   cursor:pointer;
+   
+   
+}
+
+
+
