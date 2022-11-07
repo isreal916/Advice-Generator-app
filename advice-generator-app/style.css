@@ -57,12 +57,18 @@ button{
    border:none;
    background-image:url(./images/icon-dice.svg) ;
    background-repeat: no-repeat;
+    background-position:center;
+    border-radius:50%;
    border:none;
    /* position: absolute; */
    position: sticky;
    cursor:pointer;
+    background-color: hsl(150, 100%, 66%);
    
    
+}
+buttom:hover{
+     box-shadow: 0 0px 10px 10px hsl(150, 100%, 66%)
 }
 
 
